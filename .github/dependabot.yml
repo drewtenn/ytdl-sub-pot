@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "docker"
+    directory: "/" # Location of your Dockerfile(s)
+    schedule:
+      interval: "daily" # How often to check for updates
