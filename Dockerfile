@@ -1,4 +1,4 @@
-FROM ghcr.io/jmbannon/ytdl-sub:2025.09.27.post4
+FROM ghcr.io/jmbannon/ytdl-sub:2025.11.09
 
 RUN apk add --no-cache --repository=http://dl-3.alpinelinux.org/alpine/edge/main/ \
 	"python3>=3.10" py3-pip
